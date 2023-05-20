@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-bR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="resset.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Alurabook</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="conteiner">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="conteiner__rotulo"> 
+                <span class="cabecalho__menu-hamburguer conteiner__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Coleções</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Literatura e Comportamento</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Técnicos e Profissionais</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">equilibrio pessoal</a>
+                </li>
+            </ul>
+            <!--<img src="img/Logo.svg" alt="Logo Alurabooks" class="conteiner__imagem">-->
+            <h1 class="conteiner__titulo"><b class="conteiner__titulo--negrito">Test</b>Books</h1>
+        </div>
+        <ul class="opções">
+            <input type="checkbox" id="opções_menu" class="opções_botão">
+            <label for="opções_menu" class="opções__rotulo">
+                <li class="opções__item">categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Literatura e Comportamento</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Técnicos e Profissionais</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">equilibrio pessoal</a>
+                </li>
+            </ul>
+            <li class="opções__item">
+                <a href="#" class="opções__link">Favoritos</a>
+            </li>
+            <li class="opções__item">
+                <a href="#" class="opções__link">Minha Estante</a>
+            </li>
+
+        </ul>
+        <div class="conteiner">
+            <a href="#"> 
+                <img src="img/Favoritos.svg" alt="Meus favoritos" class="conteiner__imagem-favorito">
+            </a>
+            <a href="#" class="conteiner__link"> 
+                <img src="img/Compras.svg" alt="Meu carrinho de compras" class="conteiner__imagem">
+                <p class="conteiner__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="conteiner__link"> 
+                <img src="img/Usuário.svg" alt="Meu perfil" class="conteiner__imagem">
+                <p class="conteiner__texto">meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Para tudo na vida há um livro! Encontre já o seu.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+            <!-- Slider main container -->
+        <div class="carrossel__conteiner">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/livro1.svg" alt="Livro é assim que acaba"></div>
+                <div class="swiper-slide"><img src="./img/livro5.svg" alt="Livro é assim que começa"></div>
+                <div class="swiper-slide"><img src="./img/livro3.svg" alt="Livro todas as suas imperfeições"></div>
+                <div class="swiper-slide"><img src="./img/verity.svg" alt="Livro verity"></div>
+                <div class="swiper-slide"><img src="./img/ladofeio.svg" alt="Livro o lado feio do amor"></div>
+                <div class="swiper-slide"><img src="./img/livro6.svg" alt="Livro o lado feio do amor"></div>
+                </div>
+                <!-- If we need pagination -->
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <div class="card__descrição">
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">talvez você também se interesse por...</h3>
+                        <h2 class="descrição__titulo-livro">A biblioteca da meia-noite</h2>
+                        <p class="descrição__texto">A Biblioteca da Meia-noite é um romance do gênero literatura fantástica de Matt Haig</p>
+                    </div> 
+                    <img src="./img/livro7.svg" class="descrição__imagem" alt="Livro a biblioteca da meia-noite">
+                </div>
+                <div class="card__botões">
+                    <ul class="botões">
+                        <li class="botões__item">
+                            <img src="./img/Favoritos.svg" alt="adiconar aos favoritos">
+                        </li>
+                        <li class="botões__item">
+                            <img src="./img/Compras.svg" alt="adicionar ao carrinho">
+                        </li>
+                    </ul>
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>    
+        <h2 class="carrossel__titulo">Coleção</h2>
+            <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./img/filosofal.svg" alt="Livro harry potter e a pedra filosofal"></div>
+            <div class="swiper-slide"><img src="./img/secreta.svg" alt="Livro harry potter e a camera secreta"></div>
+            <div class="swiper-slide"><img src="./img/prisioneiro.svg" alt="Livro harry potter e  o prisioneiro de azkaban "></div>
+            <div class="swiper-slide"><img src="./img/calice.svg" alt="Livro harry potter e o calice de fogo"></div>
+            <div class="swiper-slide"><img src="./img/fenix.svg" alt="Livro harry potter e a ordem da fenix"></div>
+            <div class="swiper-slide"><img src="./img/enigma.svg" alt="Livro harry potter e o enigma do principe"></div>
+            <div class="swiper-slide"><img src="./img/reliquias.svg" alt="Livro harry potter e as reliquias da morte"></div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>        
+        <div class="card">
+            <div class="card__descrição">
+                <div class="descrição">
+                    <img src="./img/Estrelinhas.png" alt="">
+                    <h3 class="descrição__titulo">Autora do mês</h3>
+                    <h2 class="descrição__titulo-livro">Colleen Hoover</h2>
+                    <p class="descrição__texto">Escritora norte-americana que escreve principalmente romances nos gêneros romântico e ficção para jovens adultos.</p>
+                </div> 
+                <img src="./img/colleen.webp" class="descrição__imagem" alt="Colleen Hoover">
+            </div>
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item">
+                        <img src="./img/Favoritos.svg" alt="adiconar aos favoritos">
+                    </li>
+                    <li class="botões__item">
+                        <img src="./img/Compras.svg" alt="adicionar ao carrinho">
+                    </li>
+                </ul>
+                <a href="#" class="botões__ancora-card2">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <section class="topicos">
+        <h2 class="topicos__titulo">Visitados recentemente</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Administração</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Autoajuda</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Biografias</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Religião</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Suspense</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Romance</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Infantil</a>
+            </li>
+        </ul>
+    </section>
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+            <input type="email" placeholder="cadastre seu email" class="contato__email">
+    </section>
+    <hr/>
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Projeto pessoal desenvolvido com base no curso 
+            Alura
+        </h2>
+    </footer>
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+      });
+    </script>
+</body>
+</html>
